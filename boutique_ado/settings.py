@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount', #  research this one, it allows login by social media
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
