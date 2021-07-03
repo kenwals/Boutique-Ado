@@ -137,7 +137,9 @@
 
     {% block postloadjs %}
     <script type="text/javascript">
-        $('.toast').toast('show');
+    var myAlert =document.getElementById('toast');//select id of toast
+    var bsAlert = new bootstrap.Toast(myAlert);//inizialize it
+    bsAlert.show();//show it
     </script>
     {% endblock %}
   </body>
